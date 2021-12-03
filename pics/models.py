@@ -4,7 +4,7 @@ from django.db import models
 class image(models.Model):
     title = models.CharField(max_length=60)
     description = models.CharField(max_length=400)
-    image = models.ImageField(upload_to = 'image/')
+    picture = models.ImageField(upload_to = 'image/')
 
     @classmethod
     def search_by_title(cls,search_term):
