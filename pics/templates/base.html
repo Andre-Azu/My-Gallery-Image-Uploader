@@ -39,12 +39,49 @@
     </div>
     {% endfor %}
     {%endblock%}
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="img">
+                   <img src="/IP3/assets/services_icons/design_icon.png" alt="design">
+                   <h4>Cats</h4>
+              </div>
+              <div class="text1" style="display: none;">
+                  <h4>Dogs</h4>
+                  <p>words</p>
+
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="img">
+                   <img src="/IP3/assets/services_icons/dev_icon.png" alt="development">
+                   <h4>Cows</h4>
+              </div>
+                  <h4>Freshian</h4>
+                  <p>Holstein Friesians are a breed of dairy cattle that originated in the Dutch provinces <br>of North Holland and Friesland</p>
+
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="img">
+                   <img src="/IP3/assets/services_icons/product_icon.png" alt="product management">
+                   <h4>Automobile</h4>
+              </div>
+                  <p>Sleek blue mercedes sprinting</p>
+
+              </div>
+          </div>
+
+      </div>
+
+      </div>
+     
 
     {% block scripts %}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      {% bootstrap_javascript %}
-    {% endblock %}
-    <img src="{{image.picture.url}}" class="img-responsive" alt="Image">
+    {% endblock %}  
     
     
 </body>
