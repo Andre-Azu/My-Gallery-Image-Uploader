@@ -17,6 +17,8 @@
     {% for image in images %}
       <div class="col-sm-6 col-md-3">
           <h1>{{image.title}}</h1>
+          {{image.description}}
+          <img src="{{image.picture.url}}" class="img-responsive" alt="Image">
       </div>
     {% endfor %}
   {% endif %}
