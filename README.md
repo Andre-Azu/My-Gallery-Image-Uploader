@@ -2,6 +2,8 @@
 # My personal gallery
 This is an app where I can upload my images and have a library of images stored in one place. I can search for spesific images and I can gat information on where the images were taken.
 
+# Live Link
+https://git.heroku.com/azugallery.git
 # Running the app
 I have uploaded the live link, all that is required is a browser. click the link and start using the app.
 
