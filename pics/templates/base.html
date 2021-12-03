@@ -28,10 +28,10 @@
       <!-- displaying News articles -->
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
-        <h2 class="text-center"> {{ image.picture.title }} </h2>
+        <h2 class="text-center"> {{ image.picture }} </h2>
       </div>
   
-      <!--Display images -->
+      Display images
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <img src="{{image.picture.url}}" class="img-responsive" alt="Image">
       </div>
@@ -44,5 +44,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      {% bootstrap_javascript %}
     {% endblock %}
+    <img src="{{image.picture.url}}" class="img-responsive" alt="Image">
+    
+    
 </body>
 </html>
