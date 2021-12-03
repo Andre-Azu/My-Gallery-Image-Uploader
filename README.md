@@ -8,32 +8,26 @@ I have uploaded the live link, all that is required is a browser. click the link
 ## Installing
 No installations required
 
-# Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 Django
 Python
 HTML
+Javascript
 
 ## Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+asgiref==3.4.1
+Django==3.2.9
+django-bootstrap3==21.1
+Pillow==8.4.0
+psycopg2==2.9.2
+pytz==2021.3
+sqlparse==0.4.2
+
 
 ## Authors
 Andre Azu
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+Copyright (c) 2021 Andre Azu
 
 ## Acknowledgments
 Special thanks to the friends who managed to get me throught the blockers
